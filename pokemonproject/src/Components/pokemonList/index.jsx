@@ -4,7 +4,7 @@ import './style.css'
 import Button from '../button/index'
 import api from '../../Services/api'
 
-const Test = () => {
+const Test = (props) => {
   const [pokemon, setPokemon] = useState([])
   const [counter, setCounter] = useState(0)
 

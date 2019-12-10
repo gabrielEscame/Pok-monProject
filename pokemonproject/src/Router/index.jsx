@@ -3,7 +3,7 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import PokemonList from '../Components/pokemonList'
 import PokeInfo from '../Components/PokeInfo'
 
-const Router = () => (
+const Router = (props) => (
   <BrowserRouter>
     <Switch>
         <Route exact path='/' component={PokemonList}  />

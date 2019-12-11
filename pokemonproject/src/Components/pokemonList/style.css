@@ -1,4 +1,7 @@
-
+*{
+  padding: 0px;
+  margin: 0px;
+}
 body{
   display: flex;
   justify-content: center;
@@ -42,5 +45,6 @@ body{
 }
 
 .pokemon-number{
-  font-weight: 200
+  font-weight: 200;
+  color:black;
 }
